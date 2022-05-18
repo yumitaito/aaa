@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+body {
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text_red {
+  color: #FA4E3E;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.util_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+
+/* point */
+
+.point {
+  padding-top: 90px;
+}
+
+.point_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+
+.util_text {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.018em;
+}
+
+.point_text::before {
+  content: "";
+  display: inline-block;
+  background: url(../../img/pc/line_left.png) no-repeat 0 0 / 20px auto;
+  width: 20px;
+  height: 30px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+.point_text::after {
+  content: "";
+  display: inline-block;
+  background: url(../../img/pc/line_right.png) no-repeat 0 0 / 20px auto;
+  width: 20px;
+  height: 30px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.point_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.point_item {
+  width: 380px;
+  height: 388px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.point_item_title {
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 240px;
+  background-color: #ED7E73;
+  border-radius: 23px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+
+.point_item_picture {
+  text-align: center;
+}
+
+.point_item_text {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.point_item_body {
+  padding: 0 25px ;
+  padding-bottom: 40px;
+}
+
+.point_item_description {
+  margin-top: 20px;
+}
+
+/* genre */
+
+.genre {
+  background-color: #F6F6EE;
+}
+
+.genre_text::before {
+  content: "";
+  display: inline-block;
+  background: url(../../img/pc/line_left.png) no-repeat 0 0 / 20px auto;
+  width: 20px;
+  height: 30px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+.genre_text::after {
+  content: "";
+  display: inline-block;
+  background: url(../../img/pc/line_right.png) no-repeat 0 0 / 20px auto;
+  width: 20px;
+  height: 30px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.genre_content {
+  margin-top: 51px;
+}
+
+.genre_content_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.other{
+  margin-top: 40px;
+}
+
+.genre_footer {
+  margin-top: 50px;
+}
+
+/* flow */
+
+.flow {
+  background-color: #F6F6EE;
+}
+
+.flow_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.flow_arrow_picture {
+  margin-top:100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.flow_item_body {
+  width: 350px;
+}
+
+.flow_item_title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.flow_item_description {
+  margin-top: 10px;
+}
+
+.flow_item_text {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* area */
+
+.area_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 50px solid #F6F6EE;
+  height: 320px;
+  margin-top: 50px;
+}
+
+.area_content_message {
+  margin-right: 52px;
+}
+
+.area_content_title {
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.area_content_title:before,
+.area_content_title:after {
+  border-top: 1px solid black;
+  content: "";
+  width: 200px; 
+}
+
+.area_content_title:before {
+  margin-right: 20px; 
+}
+
+.area_content_title:after {
+  margin-left: 20px; 
+}
+
+/* precautions */
+
+.precautions {
+  background-color: #F6F6EE;
+}
+
+.precautions_container {
+  border: 2px solid #E31D09;
+  border-radius: 4px;
+  padding: 50px;
+}
+
+.precautions_title {
+  margin-bottom: 40px;
+}
+
+.precautions_text {
+  margin-top: 20px;
+}
+
+
+/* faq */
+
+.faq_list {
+  border-top: 1px solid #d9d9d9;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.faq_item {
+  padding: 30px;
+  cursor: pointer;
+  letter-spacing: 0;
+  border-bottom: 1px solid #d9d9d9;
+}
